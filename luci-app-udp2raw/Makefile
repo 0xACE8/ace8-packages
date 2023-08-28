@@ -22,4 +22,6 @@ PKG_MAINTAINER:=Jian Chang <aa65535@live.com>
 
 include $(TOPDIR)/feeds/luci/luci.mk
 
+chmod +x $(1)/etc/init.d/udp2raw
+
 # call BuildPackage - OpenWrt buildroot signature
